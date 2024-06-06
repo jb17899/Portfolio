@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+   
+</head>
+<body>
+    <header class="header" id="header">
+        <div class="new-navs"style="display: flex;width:100%;justify-content: space-between;">
+        <a href="#" class="logo" style="text-decoration: line-through;">Bharat</a>
+        <nav class="navbar" id="navbar">
+            <a href="#home" id="one">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact" id="two">Contact Information</a>
+        </nav>
+    </div>
+        <div class="icons" onclick="dropDown()">
+            <i class='bx bx-menu' id="menu"></i>
+        </div>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h1 class="text">Hi,I am <span>Bharat Kumar Sharma</span></h1>
+            <p>Hey there, I'm an 18-year-old student diving deep into the world of coding and development here at Thapar University. Coding isn't just a hobby for me; it's my passion, my playground where I get to explore and create. From crafting sleek websites to tinkering with complex algorithms, I'm constantly pushing the boundaries of what I can achieve.  </p>
+        
+        <div class="btn-box">
+            <a href="#contact" class="btn">Hire Me</a>
+            <a href="#contact" class="btn">Let's talk</a>
+        </div>
+    </div>
+    <div class="icon">
+      <a href="#"><i class='bx bxl-gmail'></i></a>
+    </div>
+    </section>
+    <section class="education" id="about">
+        <h2 class="headings">About <span class="sp"> Me</span></h2>
+        <span class="circle-spin">
+       <div class="about-img">
+        <img src="./views/Untitled design (1).jpg" alt="">
+        </div>
+    </span>
+        <div class="about-content">
+            <h3>Full Stack Developer</h3>
+            <p>Highly Driven Computer Science Engineering student with proficiency in C,C++,JavaScript,HTML,CSS,Bootstrap and their frameworks as Node.js ,Express.React and Axios.  </p>
+        </div>
+    <div class="btn-box btns">
+        <a href="#" class="btn">Read More</a>
+    </div>
+    <div class="icons" style="border: none;">
+        <a href="#"><i class='bx bxl-github'></i></a>
+        <a href="#"><i class='bx bxl-linkedin' ></i></a>
+      </div>
+    </section>
+    <section class="skills" id="education">
+        <div class="heading">
+            <h1 class="overall-heading"> My <span>Education</span></h4>
+        </div>
+        <div class="content">
+            <div class="one">
+                <h2 class="name">Thapar Institute of Engineering and Technology</h2>
+                <h4 class="degree">Bachelor of Technology in Computer Science</h4>
+                <p>2022-2026</p>
+            </div>
+            <div class="two">
+                <h1 class="courses">Relevant Courses Taken</h1>
+                <div class="courses-taken">
+                    <p>Data Structure and Algorithms</p>
+                    <p>Design and Analysis of Algorithms</p>
+                    <p>Database Management Systems</p>
+                    <p>Computer Networks</p>
+                    <p>Software Engineering</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<section class="projects" id="projects">
+    <div class="projects">
+        <h1 class="headingsf">My <span>Projects</span></h1>
+        <div class="ones">
+            <div class="headings">
+                <h1>AirW</h1>
+            </div>
+                <li><p>Built with Bootstrap,EJS,Postgres and NodeJs.</p></li>
+                <li><p>Intended to give give complete privacy and anonymity to anyone who wants to buy or rent a house.</p></li>
+        </div>
+        <div class="ones">
+            <div class="headings">
+                <h1>FAASTO</h1>
+            </div>
+            <ul>
+                <li><p>Built with Postgres,NodeJs and EJS.</p></li>
+                <li><p>Intended as a food delivery app.</p></li>
+            </ul>
+        </div>
+        <div class="ones">
+            <div class="headings">
+                <h1>AdFills</h1>
+            </div>
+
+            <li><p>Built with React and Bootstrap.</p></li>
+            <li><p>Solely intended as a frontend website.</p></li>
+        </ul>
+    </div>
+    <div class="heading">
+        <h1> My <span>Skills</span></h1>
+    </div>
+    <div class="skillm">
+        <div class="frameworks">
+            <div class="skill">
+                
+                <label for="line">PostgreSQL</label>
+                <div class="outline">
+            <div class="line" id="line" style="width:75%"></div></div>
+            </div>
+            <div class="skill">
+                <label for="line">Express</label>
+            <div class="outline">
+                <div class="line" id="line" style="width:85%"></div>
+            </div>
+            </div>
+            <div class="skill">
+     <label for="line">React</label>
+     <div class="outline">
+            <div class="line" id="line" style="width:70%"></div>
+     </div>
+            </div>
+            <div class="skill"> 
+            <label for="line">NodeJs</label>
+            <div class="outline">
+            <div class="line" id="line" style="width:74%;"></div>
+            </div>
+            </div>
+            <div class="skill"> 
+                <label for="line">Axios</label>
+                <div class="outline">
+                <div class="line" id="line" style="width: 70%;"></div>
+                </div>
+                </div>
+        </div>
+        <div class="languages">
+            <div class="skill">
+                <label for="line" >C++</label>
+                <div class="outline">
+            <div class="line" id="line" style="width: 65%;"></div>
+                </div>
+        </div>
+        <div class="skill">
+            <label for="line">Python</label>
+            <div class="outline">
+        <div class="line" id="line" style="width: 40%;"></div>
+            </div>
+    </div>
+    <div class="skill">
+        <label for="line">JavaScript</label>
+        <div class="outline">
+        <div class="line" id="line" style="width: 59%;"></div>
+        </div>
+</div>
+<div class="skill">
+    <label for="line">SQL</label>
+    <div class="outline">
+    <div class="line" id="line" style="width: 80%;"></div>
+    </div>
+</div>
+<div class="skill">
+    <label for="line">C</label>
+    <div class="outline">
+    <div class="line" id="line" style="width: 50%"></div>
+    </div>
+</div>
+        </div>
+    </div>
+</section>
+<section class="contact" id="contact">
+    <h1>Contact <span> Me</span></h1>
+<form action="https://getform.io/f/pbnvgylb" method="post">
+  <input name="name" type="text" class="feedback-input" placeholder="Name" />
+  <input name="email" type="text" class="feedback-input" placeholder="Email" />
+  <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+  <input type="submit" value="SUBMIT" />
+</form>
+</section>
+<footer class="same">
+    <p>Copyright &copy; 2024| All Rights Reserved</p>
+</footer>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
