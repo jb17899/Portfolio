@@ -484,7 +484,7 @@ form {
     width:100%;
     transition: 0.7s;
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 900px) {
     
     .navbar{
         display: none;
@@ -516,6 +516,7 @@ padding: 0px;
 background: var(--bg-color);
 z-index: 1000;
 margin-left:-6% ;
+transition: 0.7s;
     }
     .navsd a{
         width: 100%;
